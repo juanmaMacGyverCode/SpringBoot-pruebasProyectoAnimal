@@ -9,7 +9,7 @@ public class ApplicationController {
 
     @RequestMapping("/presentation")
     public String displayPresentation() {
-        return "Hola mundo presentacion MODIFICADO";
+        return "Hola mundo presentacion";
     }
 
     @RequestMapping("/virtual-visit")
